@@ -1,0 +1,23 @@
+.item-card {
+  margin: 10px;
+  padding: 20px;
+  height: fit-content;
+  font-size: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.cardId {
+  color: grey;
+  margin-bottom: 10px;
+}
+.cardTitle {
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+.cardTag {
+  font-size: 13.6px;
+  color: grey;
+}

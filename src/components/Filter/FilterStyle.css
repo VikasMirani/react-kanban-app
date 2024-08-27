@@ -1,0 +1,44 @@
+.kanban-filter {
+  background-color: #fff;
+  padding: 20px 50px;
+  position: relative;
+}
+.filterBtn {
+  border: 1px solid grey;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 5px 10px;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+}
+.dropdown-content {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid grey;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 7px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.dropdown-content .drop-div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.filterSel {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-left: 100px;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 15px;
+}
+.filTxt {
+  margin: 0 5px;
+}

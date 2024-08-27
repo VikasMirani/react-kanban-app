@@ -1,2 +1,2 @@
 # react-kanban-app
-React Kanban App
+Kanban App build using ReactJS

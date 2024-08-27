@@ -1,0 +1,41 @@
+.drag-list {
+  padding: 20px 15px;
+  display: flex;
+  align-items: flex-start;
+}
+.drag-column {
+  flex: 1;
+  margin: 0 10px;
+  position: relative;
+  overflow-x: hidden;
+}
+.drag-column .header {
+  display: flex;
+  margin: 10px;
+  font-weight: 600;
+  position: relative;
+}
+.drag-column .content {
+  overflow-y: auto;
+  max-height: 75vh;
+}
+.item-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.item-count {
+  color: grey;
+  margin-left: 10px;
+}
+.item-r-icons {
+  position: absolute;
+  right: 0px;
+  color: grey;
+}
+
+@media only screen and (max-width: 1024px) {
+  .drag-list {
+    display: block;
+  }
+}
